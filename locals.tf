@@ -32,13 +32,13 @@ locals {
       visibility         = "public"
     }
 
-    #   "fem-eci-terraform-product-service" = {
-    #   description        = "Automation for product services"
-    #   gitignore_template = "Terraform"
-    #   name               = "fem-eci-terraform-product-service"
-    #   topics             = ["frontend-masters", "terraform"]
-    #   visibility         = "private"
-    # }
+    "terraform-backend-service" = {
+      description        = "Automation for backend services"
+      gitignore_template = "Terraform"
+      name               = "terraform-backend-service"
+      topics             = ["frontend-masters", "terraform"]
+      visibility         = "public"
+    }
 
     "backend-service" = {
       description        = "Example product service"
